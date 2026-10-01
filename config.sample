@@ -1,4 +1,8 @@
 model_list:
+  - model_name: astra
+    litellm_params:
+      model: openai/gpt-6-astra
+
   - model_name: gpt120
     litellm_params:
       model: cerebras/gpt-oss-120b

@@ -1,5 +1,4 @@
 name provider in/token out/token in/M out/M
-astra openai 1.00e-05 5.00e-05 $10.00 $50.00
 gpt120 cerebras 3.50e-07 7.50e-07 $0.3500 $0.7500
 gpt120 groq 1.50e-07 6.00e-07 $0.1500 $0.6000
 gpt120 sambanova 2.20e-07 5.90e-07 $0.2200 $0.5900
