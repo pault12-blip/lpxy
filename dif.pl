@@ -32,9 +32,10 @@ for my $key (sort keys %lookup) {
     my $e = $lookup{$key};
 
     my ($platform, $model) = split ' ', $key, 2;
-    my ($prov, $mname)     = split m{/}, $model, 2;
-    $prov  //= $model;
-    $mname //= $model;
+    my $prov    = $platform;                 # e.g. fireworks_ai
+#    my ($mname) = $model =~ m{([^/]+)$};     # last path segment, e.g. kimi-k3-fast
+#    $mname //= $model;
+    my $mname = $model;
 
     if (exists $e->{old} && exists $e->{new}) {
         my ($o1, $o2) = @{$e->{old}};
@@ -53,4 +54,3 @@ for my $key (sort keys %lookup) {
         print "$dt $hms $prov $mname ADDED->\$$n1 ADDED->\$$n2\n";
     }
 }
-
