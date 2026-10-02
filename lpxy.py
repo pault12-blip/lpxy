@@ -13,7 +13,7 @@ from urllib.parse import urlparse
 
 app = Flask(__name__)
 
-DEBUG = os.environ.get("DEBUG", "0") == "1"
+DEBUG = os.environ.get("DEBUG", "1") == "1"
 
 model_map:  dict[str, list[dict]] = defaultdict(list)
 router_cfg: dict = {}
@@ -389,7 +389,7 @@ if __name__ == "__main__":
     load_bases("api_base.tab")
     debug(f"model_map keys={list(model_map.keys())}")
     debug(f"bases     keys={list(bases.keys())}")
-    port = int(os.environ.get("PORT", 4001))
+    port = int(os.environ.get("PORT", 4000))
     debug(f"listening on port {port}")
     app.run(host="0.0.0.0", port=port)
 

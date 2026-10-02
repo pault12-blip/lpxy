@@ -10,7 +10,7 @@ python3 map.py --refresh > map.txt
 diff map.old map.txt > delta.txt
 ./dif.pl delta.txt >> feed.log
 
-./costs.py > costs.txt
+./costs.py > costs.tab
 
 echo END
 date

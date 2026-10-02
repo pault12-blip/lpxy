@@ -779,7 +779,7 @@ openrouter cohere/command-r-plus-08-2024 $2.5000 $10.0000
 openrouter google/gemini-2.5-pro $1.2500 $10.0000
 openrouter google/gemini-2.5-pro-preview $1.2500 $10.0000
 openrouter google/gemini-2.5-pro-preview-05-06 $1.2500 $10.0000
-openrouter moonshotai/kimi-k3 $0.2800 $10.0000
+openrouter moonshotai/kimi-k3 $0.4357 $10.0000
 openrouter openai/gpt-4o $2.5000 $10.0000
 openrouter openai/gpt-4o-2024-08-06 $2.5000 $10.0000
 openrouter openai/gpt-4o-2024-11-20 $2.5000 $10.0000
@@ -1175,7 +1175,6 @@ openrouter openai/o3-mini $1.1000 $4.4000
 openrouter openai/o3-mini-high $1.1000 $4.4000
 openrouter openai/o4-mini $1.1000 $4.4000
 openrouter openai/o4-mini-high $1.1000 $4.4000
-openrouter z-ai/glm-5.3 $1.4000 $4.4000
 perplexity perplexity/glm-5.2 $1.4000 $4.4000
 perplexity perplexity/glm-5.3 $1.4000 $4.4000
 qwen_ai_platform glm-5.1 $1.4000 $4.4000
@@ -1260,7 +1259,7 @@ together_ai moonshotai/Kimi-K2.7-Code $0.9500 $4.0000
 vercel_ai_gateway anthropic/claude-3.5-haiku $0.8000 $4.0000
 vercel_ai_gateway xai/grok-3-mini-fast $0.6000 $4.0000
 aihubmix kimi-k2.6 $0.9500 $3.9995
-openrouter z-ai/glm-5.2 $0.3249 $3.9900
+openrouter z-ai/glm-5.2 $0.4100 $3.9900
 baseten deepseek-ai/DeepSeek-V4-Pro-0813 $1.3200 $3.9600
 deepseek deepseek-v4-pro $1.3200 $3.9600
 fireworks_ai accounts/fireworks/models/deepseek-v4-pro-0813 $1.3200 $3.9600
@@ -1332,11 +1331,11 @@ together_ai meta-llama/Llama-3.1-405B-Instruct $3.5000 $3.5000
 wandb moonshotai/Kimi-K2.7-Code $0.7100 $3.5000
 azure_ai deepseek-v4-pro $1.7400 $3.4800
 baseten deepseek-ai/DeepSeek-V4-Pro $1.7400 $3.4800
-openrouter moonshotai/kimi-k2.6 $0.6500 $3.4100
 wandb moonshotai/Kimi-K2.6 $0.6500 $3.4100
 deepinfra moonshotai/Kimi-K2.7-Code $0.6800 $3.4000
 novita moonshotai/kimi-k2.6 $0.8000 $3.4000
 openrouter switchpoint/router $0.8500 $3.4000
+openrouter z-ai/glm-5.3 $0.2219 $3.3900
 aihubmix deepseek-v4-pro $1.6900 $3.3800
 bedrock_converse apac.amazon.nova-pro-v1:0 $0.8400 $3.3600
 openrouter moonshotai/kimi-k2.7-code $0.6712 $3.3500
@@ -1639,7 +1638,7 @@ novita zai-org/glm-4.5 $0.6000 $2.2000
 novita zai-org/glm-4.6 $0.5500 $2.2000
 novita zai-org/glm-4.7 $0.6000 $2.2000
 novita zai-org/glm-4.7-h $0.6000 $2.2000
-openrouter minimax/minimax-m1 $0.4000 $2.2000
+openrouter minimax/minimax-m1 $0.5500 $2.2000
 openrouter openai/o3-mini:batch $0.5500 $2.2000
 openrouter openai/o4-mini:batch $0.5500 $2.2000
 openrouter z-ai/glm-4.5 $0.6000 $2.2000
@@ -1768,6 +1767,7 @@ bedrock us-east-2/deepseek.v3.2 $0.6200 $1.8500
 bedrock us-west-2/deepseek.v3.2 $0.6200 $1.8500
 bedrock_converse deepseek.v3.2 $0.6200 $1.8500
 bedrock_converse us.deepseek.v3.2 $0.6200 $1.8500
+openrouter moonshotai/kimi-k2.6 $0.4341 $1.8280
 openrouter qwen/qwen3-235b-a22b $0.4550 $1.8200
 bedrock_converse qwen.qwen3-coder-480b-a35b-v1:0 $0.4500 $1.8000
 bedrock_mantle qwen.qwen3-coder-480b-a35b-instruct $0.4500 $1.8000
@@ -1834,7 +1834,6 @@ together_ai deepseek-ai/DeepSeek-R1-Distill-Qwen-14B $1.6000 $1.6000
 vercel_ai_gateway alibaba/qwen3-coder $0.4000 $1.6000
 vercel_ai_gateway openai/gpt-4.1-mini $0.4000 $1.6000
 bedrock_mantle us-gov-west-1/openai.gpt-5.6-luna $0.2640 $1.5840
-openrouter deepseek/deepseek-v4-pro $0.7830 $1.5660
 oci cohere.command-a-03-2025 $1.5600 $1.5600
 oci cohere.command-a-reasoning $1.5600 $1.5600
 oci cohere.command-a-reasoning-08-2025 $1.5600 $1.5600
@@ -1963,7 +1962,7 @@ novita deepseek/deepseek-v4-flash-0731 $0.4400 $1.3200
 novita deepseek/deepseek-v4-flash-vision-exp $0.4400 $1.3200
 novita deepseek/deepseek-v3-turbo $0.4000 $1.3000
 openrouter qwen/qwen3.5-35b-a3b $0.1625 $1.3000
-openrouter deepseek/deepseek-v4-flash-0731 $0.0089 $1.2800
+openrouter deepseek/deepseek-v4-flash-0731 $0.0108 $1.2800
 openrouter qwen/qwen3.7-plus $0.3200 $1.2800
 together_ai Qwen/Qwen3.7-Plus $0.3200 $1.2800
 azure_ai grok-3-mini $0.2500 $1.2700
@@ -2601,6 +2600,7 @@ nlp_cloud dolphin $0.5000 $0.5000
 novita qwen/qwen3-vl-8b-instruct $0.0800 $0.5000
 oci xai.grok-3-mini $0.3000 $0.5000
 openai gpt-6-luna $0.1000 $0.5000
+openrouter deepseek/deepseek-v4.1-flash $0.0300 $0.5000
 openrouter openai/gpt-6-luna $0.1000 $0.5000
 openrouter openai/gpt-6-luna-pro $0.1000 $0.5000
 openrouter prism-ml/ternary-bonsai-2-27b $0.0750 $0.5000
@@ -2650,6 +2650,7 @@ azure us/gpt-5-nano-2025-08-07 $0.0550 $0.4400
 deepseek deepseek-chat $0.2800 $0.4200
 deepseek deepseek-reasoner $0.2800 $0.4200
 openrouter deepseek/deepseek-v3.2 $0.2800 $0.4200
+openrouter deepseek/deepseek-v4-pro $0.2088 $0.4176
 openrouter qwen/qwen3-vl-32b-instruct $0.1040 $0.4160
 novita deepseek/deepseek-v3.2-exp $0.2700 $0.4100
 openrouter deepseek/deepseek-v3.2-exp $0.2700 $0.4100
@@ -2740,7 +2741,6 @@ vertex_ai-language-models gemini-2.5-flash-lite-preview-09-2025 $0.1000 $0.4000
 databricks databricks-gpt-5-nano $0.0500 $0.4000
 aihubmix gemma-4-26b-a4b-it $0.1400 $0.4000
 aihubmix gemma-4-31b-it $0.1400 $0.4000
-openrouter deepseek/deepseek-v4.1-flash $0.0198 $0.3960
 aihubmix glm-5.3-flash $0.1127 $0.3944
 novita baidu/ernie-4.5-vl-28b-a3b-thinking $0.3900 $0.3900
 aihubmix qwen3.8-flash $0.1126 $0.3800
@@ -3120,6 +3120,7 @@ together_ai meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo $0.1800 $0.1800
 openrouter tencent/hy-mt2-1.8b $0.0440 $0.1770
 deepinfra openai/gpt-oss-120b $0.0370 $0.1700
 novita mistralai/mistral-nemo $0.0400 $0.1700
+openrouter nvidia/nemotron-3.5-lightning $0.0595 $0.1700
 openrouter openai/gpt-oss-120b $0.0370 $0.1700
 perplexity perplexity/nemotron-3.5-lightning-30b-a3b $0.0115 $0.1700
 wandb openai/gpt-oss-120b $0.0300 $0.1700
@@ -3130,9 +3131,7 @@ bedrock meta.llama3-2-11b-instruct-v1:0 $0.1600 $0.1600
 bedrock us.meta.llama3-2-11b-instruct-v1:0 $0.1600 $0.1600
 deepinfra google/gemma-3-27b-it $0.0800 $0.1600
 deepinfra nvidia/NVIDIA-Nemotron-Nano-9B-v2 $0.0400 $0.1600
-openrouter nvidia/nemotron-3.5-lightning $0.0600 $0.1600
 vercel_ai_gateway meta/llama-3.2-11b $0.1600 $0.1600
-openrouter deepseek/deepseek-v4-flash $0.0785 $0.1571
 aihubmix agnes-2.5-flash $0.0300 $0.1500
 anyscale HuggingFaceH4/zephyr-7b-beta $0.1500 $0.1500
 anyscale google/gemma-7b-it $0.1500 $0.1500
@@ -3283,6 +3282,7 @@ novita gryphe/mythomax-l2-13b $0.0900 $0.0900
 nscale deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B $0.0900 $0.0900
 oci cohere.command-a-translate-08-2025 $0.0900 $0.0900
 openrouter openai/gpt-oss-20b $0.0180 $0.0900
+openrouter deepseek/deepseek-v4-flash $0.0419 $0.0837
 bedrock_converse google.gemma-3-4b-it $0.0400 $0.0800
 bedrock_mantle google.gemma-4-e2b $0.0400 $0.0800
 deepinfra mistralai/Mistral-Small-24B-Instruct-2501 $0.0500 $0.0800
