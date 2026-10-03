@@ -33,6 +33,6 @@ fi
 
 echo "starting: $CMD"
 rm -f "$BASE/log.log"
-nohup $CMD >>"$BASE/log.log" 2>&1 &
+nohup $CMD >/dev/null 2>&1 &
 echo "pid $!"
 
