@@ -1,5 +1,5 @@
 name provider in/token out/token in/M out/M
-gpt120 openrouter 3.70e-08 1.70e-07 $0.0370 $0.1700
+gpt120 openrouter - - - -
 mini openai 7.50e-07 4.50e-06 $0.7500 $4.50
 opus5 10.50.0.11:8081 5.00e-06 2.50e-05 $5.00 $25.00
 haiku 10.50.0.11:8081 1.00e-06 5.00e-06 $1.00 $5.00

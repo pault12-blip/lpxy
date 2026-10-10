@@ -45,16 +45,17 @@ if (!$lines) {
             $v1       = $matches[5];
             $v2       = isset($matches[6]) ? $matches[6] : ''; // V2 might be missing on some lines
 
-            // Helper function to apply color classes
-            $format_val = function($val) {
-                $val = htmlspecialchars($val); // Prevent XSS
-                if (strpos($val, 'ADDED') === 0) {
-                    return '<span class="added">' . $val . '</span>';
-                } elseif (strpos($val, 'REMOVED') === 0) {
-                    return '<span class="removed">' . $val . '</span>';
-                }
-                return $val; // Neutral color for price changes like $5.0000->$4.0000
-            };
+// Helper function to apply color classes
+ $format_val = function($val) {
+    $val = htmlspecialchars($val); // Prevent XSS
+    if (strpos($val, 'ADDED') !== false) {
+        return '<span class="added">' . $val . '</span>';
+    } elseif (strpos($val, 'REMOVED') !== false) {
+        return '<span class="removed">' . $val . '</span>';
+    }
+    return $val; // Neutral color for price changes like $5.0000->$4.0000
+};
+
     ?>
     <tr>
         <td><?= htmlspecialchars($dt) ?></td>
